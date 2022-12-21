@@ -32,7 +32,7 @@ function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction
       <SoftBox bgColor={bgColor} variant="gradient">
         <SoftBox p={2}>
           <Grid container>
-            {direction === "left" ? (
+            {direction === "left" ? ( 
               <Grid item>
                 <SoftBox
                   variant="gradient"
